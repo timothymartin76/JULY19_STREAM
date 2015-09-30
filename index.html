@@ -43,7 +43,7 @@
     
       var margin = {top: 20, right: 55, bottom: 30, left: 40},
           width  = 900 - margin.left - margin.right,
-          height = 340  - margin.top  - margin.bottom;
+          height = 390  - margin.top  - margin.bottom;
 
       var x = d3.scale.ordinal()
           .rangeRoundBands([0, width], .1);
@@ -128,7 +128,7 @@
             .attr("class", "x axis")
             .call(yAxis)
 			.append("text") 
-            .attr("y", 365)
+            .attr("y", 333)
             .attr("dx", "12em") 
             .text("Hour of day");
 			
